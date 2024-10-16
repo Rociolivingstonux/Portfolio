@@ -1,0 +1,267 @@
+/* ESTILO BOTONES */
+.btn {
+    background-color: rgb(245, 127, 23);
+    border: 2px solid #FF5E43;
+    margin-right: 5%;
+    margin-bottom: -10%;
+    
+}
+
+.btn-primary {
+    background-color: #FF5E43;
+}
+
+.btn-primary:hover{
+    color: black;
+    background-color: #f17059;
+    border: 2px solid  #e1553d;
+}
+
+.btn-outline-primary {
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 95%;
+    margin-top: -40%;
+}
+
+
+/* HOVER DEL NAVBAR */
+
+
+/* SIMBOLO DE CODIGO */
+
+#simbolo {
+    
+    display:flex ;
+    width: 150px;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: 1%;
+   
+}
+
+#simbolo2 {
+    justify-content: flex-end;
+    align-items: end;
+    display:flex ;
+    width: 150px;
+    height: 200px;
+    margin-left: 70%;
+    margin-top: -5%;
+}
+
+
+.uil {
+    color: antiquewhite;
+}
+
+/* LOGOS ESTILO SOMBRA DE IMG  */
+
+.img-skill img {
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s; 
+}
+
+.img-skill img:hover {
+    transform: scale(1.1); 
+}
+
+
+
+
+/* ESTILO BODY  */
+
+#letradecorativa {
+    font-family: 'Exo+2' cursive;
+    color: rgb(18, 17, 17);
+    margin-top: 10px;
+    
+}
+
+.saludo {
+    width: 300px;
+    height: auto;
+    margin-left: 32%;
+    position: relative;
+    top: -140px; 
+}
+
+body {
+    background-image: url(./Imagenes/Fondo\ blanco\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(24, 23, 23);
+}
+
+
+
+
+/* NABVAR */
+
+
+
+
+
+
+/* ESTILOS DE LA PARTE DE PORTADA HOME */
+
+.portada-datos {
+    text-align: center;
+    margin-top: -20%;
+}
+
+.h1 {
+    margin-left: 50%;
+    width: 300px;
+}
+
+
+
+.portada-datos img {
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+
+}
+
+
+#fotoperfil {
+    width: 250px;
+    height: 250px;
+    border-radius: 90% 50% 60% 70%;
+    border: 6px solid #FF5E43;
+    
+}
+
+.sobremi { 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    align-items: center;
+   
+}
+
+.ilustraciones {
+    justify-content: center;
+    text-align: center;
+}
+
+.ilustraciones img {
+    width: 800px;
+    height: 800px;
+    margin-bottom: 15%;
+}
+
+
+
+/* DATOS DE CONTACTO */
+
+.formulario {
+    background-color: #FF5E43;
+    padding: 2%;
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.form-floating{
+    padding: 2%
+}
+
+.listainformacion{
+    justify-content: center;
+    display: flex;
+    display: flex;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.listacontacto {
+    display: flex;
+}
+
+.listacontacto uil {
+    width: 25px;
+    height: 25px;
+}
+
+.iconosinformacion {
+    width: 100%;
+    height: auto;
+}
+
+.btn-outline-primary:hover{
+    background-color: #e1553d;
+    border: 2px solid #e1553d;
+}
+
+.btn-outline-primary:active {
+    background-color: #e1553d;
+}
+
+listainformacion{
+    justify-content: center;
+    display: flex;
+    display: flex;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.listacontacto {
+    display: flex;
+}
+
+.listacontacto uil {
+    width: 25px;
+    height: 25px;
+}
+
+.iconosinformacion {
+    width: 100%;
+    height: auto;
+}
+
+.sobremi img {
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+}
+
+/* CARDS PROYECTOS */
+
+
+
+/* Seccion de SOBRE MI */
+
+.progress-bar {
+    background-color: #e1553d;
+}
+
+.imagengato {
+    margin-right: 50% !important;
+}
+
+/* ICONOS PARTE DE CONTACTARME */
+
+.iconosinformacion i {
+    font-size:xx-large;
+    background-color: #e1553d;
+    border-radius: 10%;
+}
