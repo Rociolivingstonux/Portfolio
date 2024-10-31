@@ -4,7 +4,6 @@
     border: 2px solid #FF5E43;
     margin-right: 5%;
     margin-bottom: -10%;
-    
 }
 
 .btn-primary {
@@ -109,6 +108,24 @@ body {
 
 
 /* NABVAR */
+
+/* RESPONSIVIDAD DATOS DE PORTADA */
+
+/* PROYECTO */
+
+#proyectos .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#proyectos .col {
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 
 
